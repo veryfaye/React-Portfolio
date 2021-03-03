@@ -9,7 +9,9 @@ function App() {
   return (
     <Router>
       <div className="App">
+      
         <Nav />
+        <main className="container">
         <Switch>
           <Route exact path={["/React-Portfolio/", "/React-Portfolio/About"]}>
             <AboutMe />
@@ -21,6 +23,7 @@ function App() {
             <NoMatch />
           </Route>
         </Switch>
+        </main>
       </div>
     </Router>
   );

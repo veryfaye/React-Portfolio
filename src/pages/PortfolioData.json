@@ -2,19 +2,12 @@
   {
     "id": 1,
     "name": "Space Invaders",
-    "image": "../images/SpaceInvaders.png",
+    "image": "SpaceInvaders.png",
     "alt": "Space Invaders",
     "imgTxt": "Log into Space Invaders to Play",
     "link": "https://project-two-pat-glenn-amanda.herokuapp.com/"
   },
-  { "id": 2, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 3, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 4, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 5, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 6, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 7, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 8, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 9, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 10, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" },
-  { "id": 11, "name": "", "image": "", "alt": "", "imgTxt": "", "link": "" }
+  { "id": 2, "name": "Eat Da Burger", "image": "DeployedEatDaBurger.png", "alt": "Eat Da Burger", "imgTxt": "Update the database to eat burgers", "link": "https://lemoine-eat-da-burger.herokuapp.com/" },
+  { "id": 3, "name": "Wedding Scheduler Around Golden Hour", "image": "WeddingPlannerForm.png", "alt": "Wedding Planner Form Fields", "imgTxt": "Wedding Scheduler on Page Load", "link": "https://mbubel.github.io/projectwedding/" },
+  { "id": 4, "name": "Weather App", "image": "5DayWeatherForecast.png", "alt": "5 Day Weather Forecast", "imgTxt": "Weather Forecast with Search History", "link": "https://veryfaye.github.io/Weather-App/" }
 ]

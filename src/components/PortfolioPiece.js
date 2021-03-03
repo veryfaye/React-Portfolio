@@ -1,4 +1,5 @@
 function PortfolioPiece(props){
+  let imgSrc = require(`../images/${props.image}`)
     return (
         <div>
             <hr />
@@ -14,7 +15,7 @@ function PortfolioPiece(props){
               <div className="row">
                 <div className="col-lg-12">
                   <img
-                    src={props.image}
+                    src={imgSrc.default}
                     alt={props.alt}
                     className="img-fluid p-1.5 mb-3"
                   />

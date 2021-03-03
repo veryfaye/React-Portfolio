@@ -1,13 +1,62 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/asanoha-400px.png');
+  background-repeat: repeat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* NAV */
+.navbar-light div.navbar-brand {
+  background-color: #4aaaa5;
+  color: #eeeeee;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-light div.navbar-brand:hover {
+  color: #eeeeee;
+}
+
+
+/* MAIN */
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+}
+h2, h4{
+  text-align: center;
+}
+button.btn-lg.btn-primary{
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+  border-radius: 1px;
+}
+
+button.btn-lg.btn-primary:active,  button.btn-lg.btn-primary:focus{
+  background-color: #3d8d89;
+  border-color: #3d8d89;
+}
+
+a{
+  color: #4aaaa5;
+}
+
+a:active, a:hover{
+  color: #3d8d89;
+}
+
+.bottommargin {
+  margin-bottom: 100px;
+}
+
+/* IMAGE SIZING */
+@media(min-width: 768px) {
+  .col-lg-6 img {
+      width: 350px;
+  }
+}
+
+
+/* FOOTER */
+.text-center.py-3 {
+  border-top: 5px solid #4aaaa5;
+  background-color: #666666;
+  color: #979a9c;
 }

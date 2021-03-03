@@ -11,10 +11,10 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route exact path={["/", "/About"]}>
+          <Route exact path={["/React-Portfolio/", "/React-Portfolio/About"]}>
             <AboutMe />
           </Route>
-          <Route exact path="/Portfolio">
+          <Route exact path="/React-Portfolio/Portfolio">
             <Portfolio />
           </Route>
           <Route>

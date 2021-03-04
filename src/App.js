@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Nav from "./components/Nav";
@@ -9,19 +9,12 @@ function App() {
   return (
     <Router>
       <div className="App">
-      
         <Nav />
         <main className="container">
         <Switch>
-          <Route exact path={["/React-Portfolio/", "/React-Portfolio/About"]}>
-            <AboutMe />
-          </Route>
-          <Route exact path="/React-Portfolio/Portfolio">
-            <Portfolio />
-          </Route>
-          <Route>
-            <NoMatch />
-          </Route>
+          <Route exact path={["/", "/About"]} component={AboutMe} />
+          <Route exact path="/Portfolio" component={Portfolio}/>
+          <Route component={NoMatch}/>
         </Switch>
         </main>
       </div>

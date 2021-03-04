@@ -6,7 +6,7 @@ function PortfolioPiece(props){
               <div className="row">
                 <div className="col-lg-12">
                   <h2>
-                    <a href={props.link}>
+                    <a className="link" href={props.link}>
                       {props.name}
                     </a>
                   </h2>

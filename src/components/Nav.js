@@ -8,12 +8,16 @@ function Nav(){
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                    <a className="nav-link" href="./Portfolio">Portfolio</a>
+            <li className="nav-item">
+                    <a className="nav-link" href="#/About">About Me</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="./About">About Me</a>
+                    <a className="nav-link" href="#/Portfolio">Portfolio</a>
                 </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="#/Contact">Contact Me</a>
+                </li>
+                
             </ul>
         </div>
     </nav>

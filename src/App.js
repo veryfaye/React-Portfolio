@@ -4,6 +4,8 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Nav from "./components/Nav";
 import NoMatch from "./pages/NoMatch";
+import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,9 +16,11 @@ function App() {
         <Switch>
           <Route exact path={["/", "/About"]} component={AboutMe} />
           <Route exact path="/Portfolio" component={Portfolio}/>
+          <Route exact path="/Contact" component={Contact}/>
           <Route component={NoMatch}/>
         </Switch>
         </main>
+        <Footer/>
       </div>
     </Router>
   );

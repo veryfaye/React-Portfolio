@@ -1,13 +1,66 @@
 [
   {
+    "id": 0,
+    "name": "React Employee Directory",
+    "image": "EmployeeDirectory.png",
+    "alt": "Employee Directory",
+    "imgTxt": "An application using React. The user can filter and sort the data.",
+    "link": "https://veryfaye.github.io/EmployeeDirectory/"
+  },
+  {
     "id": 1,
+    "name": "Work Out Tracker",
+    "image": "WorkOutTracker.png",
+    "alt": "Work Out Tracker Graphs",
+    "imgTxt": "Work Out Tracker using MongoDB. The user can add work out data, and the charts on the dashboard will automatically update.",
+    "link": "https://project-two-pat-glenn-amanda.herokuapp.com/"
+  },
+  {
+    "id": 2,
     "name": "Space Invaders",
     "image": "SpaceInvaders.png",
     "alt": "Space Invaders",
-    "imgTxt": "Log into Space Invaders to Play",
+    "imgTxt": "The second project in the bootcamp. This application allows the user to log-in, reset their password, and play space invaders!",
     "link": "https://project-two-pat-glenn-amanda.herokuapp.com/"
   },
-  { "id": 2, "name": "Eat Da Burger", "image": "DeployedEatDaBurger.png", "alt": "Eat Da Burger", "imgTxt": "Update the database to eat burgers", "link": "https://lemoine-eat-da-burger.herokuapp.com/" },
-  { "id": 3, "name": "Wedding Scheduler Around Golden Hour", "image": "WeddingPlannerForm.png", "alt": "Wedding Planner Form Fields", "imgTxt": "Wedding Scheduler on Page Load", "link": "https://mbubel.github.io/projectwedding/" },
-  { "id": 4, "name": "Weather App", "image": "5DayWeatherForecast.png", "alt": "5 Day Weather Forecast", "imgTxt": "Weather Forecast with Search History", "link": "https://veryfaye.github.io/Weather-App/" }
+  {
+    "id": 3,
+    "name": "Eat Da Burger",
+    "image": "DeployedEatDaBurger.png",
+    "alt": "Eat Da Burger",
+    "imgTxt": "A simple application that allows the user to add burgers to a MySQL database.",
+    "link": "https://lemoine-eat-da-burger.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "name": "Wedding Scheduler Around Golden Hour",
+    "image": "WeddingPlannerForm.png",
+    "alt": "Wedding Planner Form Fields",
+    "imgTxt": "The first project in the bootcamp. This application allows the user to set the location of a wedding, photo location, and reception to plan around golden hour.",
+    "link": "https://mbubel.github.io/projectwedding/"
+  },
+  {
+    "id": 5,
+    "name": "Weather App",
+    "image": "5DayWeatherForecast.png",
+    "alt": "5 Day Weather Forecast",
+    "imgTxt": "This application shows the next 5 days weather for any city searched, and uses local storage to show pervious cities searched.",
+    "link": "https://veryfaye.github.io/Weather-App/"
+  },
+  {
+    "id": 6,
+    "name": "Coding Quiz",
+    "image": "CodingQuizQuestion.png",
+    "alt": "Coding Quiz Quiz Question",
+    "imgTxt": "A timed multiple select quiz that shows the user a high score on completion.",
+    "link": "https://veryfaye.github.io/MiniQuiz/"
+  },
+  {
+    "id": 7,
+    "name": "Day Planner",
+    "image": "DayPlannerSaved.png",
+    "alt": "Day Planner in use",
+    "imgTxt": "A day planner that uses local storage to set meetings in a day.",
+    "link": "https://veryfaye.github.io/AgendaSchedule/"
+  }
 ]
